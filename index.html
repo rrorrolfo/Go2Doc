@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Go2Doc | Medical booking</title>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header class="clearfix">
+        <h1 id="main_title">Go2Doc</h1>
+        <nav>
+            <div id="nav_img">
+                <img src="img/menu_bars.png" alt="main menu">
+            </div>
+            <ul id="nav_links" class="hide_content">
+                <li>Home</li>
+                <li>My profile</li>
+                <li>My appointments</li>
+                <li>Create appointment</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="create_appointment_section">
+            <h2>Create an appointment</h2>
+
+            <form>
+                <label for="speciality">Speciality:</label>
+                <input type="text" id="speciality" name="doc_speciality" placeholder="Your speciality as a doctor">
+
+                <label for ="">Place:</label>
+                <input type="text" id="place" name= "doc_place" placeholder="Location of your consultory">
+
+                <legend>Day of the appointment</legend>
+                <input type="date" id="date" name="doc_date" > 
+
+                <legend>Time of the appointment</legend>
+                <input type="time" id="time" name="doc_time">
+                 
+
+                <button type="button" id="submit">Create appointment</button>
+            </form>
+        </section>
+
+        <section id="my_appointments">
+
+            <h2>My open appointments</h2>
+            <div id="output_my_appointments">
+
+                <div class="appointment">
+                    <h4>Open appointment for:</h4>
+                    <div id="data_app_wrapper">
+                        <div>
+                            <p>Speciality: </p>
+                            <span>Optometria</span>
+                        </div>
+
+                        <div>
+                            <p>Place: </p>
+                            <span></span>
+                        </div>
+                        <div>
+                            <p>Day: </p>
+                            <span></span>
+                        </div>
+                        <div>
+                            <p>Time: </p>
+                            <span></span>
+                        </div>
+                        <button type="button">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    
+
+    <script src="js/apps.js"></script>
+  </body>
+</html>

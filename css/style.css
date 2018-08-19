@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+h4 {
+    padding-top: 15px;
+}
+
+/*header*/
+
+header {
+    background-color: rgb(32, 161, 151);
+}
+
+#main_title {
+    order: 1;
+    margin-right: 40%;
+    float: right;
+    color: #fff;
+    font-weight: 800;
+
+}
+
+/* Navigator*/
+
+#nav_img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.hide_content {
+    display: none;
+}
+
+.show_content {
+    display: block;
+}
+
+#nav_links {
+    margin: 0;
+    padding-left: 15px;
+    background-color: rgb(77, 60, 60);
+}
+
+#nav_links li {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 800;
+    padding: 5px 0
+    
+}
+
+/************Form ***************  */
+
+#create_appointment_section {
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(32, 161, 151);
+}
+
+label,
+legend {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 55px;
+    margin: 5px 0;
+    color: #fff;
+}
+
+input {
+    width: 85%;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 10%;
+}
+
+#submit {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 800;
+    background-color: #728d18;
+}
+
+/********* My appointments  **********++*/
+
+
+#my_appointments {
+    width: 80%;
+    padding-bottom: 25px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(32, 161, 151); 
+}
+
+#my_appointments h2 {
+    color:#fff;
+    padding: 10px 0;
+}
+
+#output_my_appointments {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+
+/*******  open appointment output **************/
+
+#data_app_wrapper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#data_app_wrapper div {
+    text-align: left;
+    flex-basis: 18%;
+}
+
+#data_app_wrapper div p {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+button[type="button"] {
+    background-color: rgba(190, 7, 7, 0.897);
+    border-radius: 20%;
+    color:#fff;
+    height: 55px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
